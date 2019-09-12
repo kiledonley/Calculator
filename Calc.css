@@ -1,0 +1,75 @@
+.calc, button, bigbutton{
+    border-radius: 5px;
+}
+
+.blue{background-color: blue;}
+.red{background-color: red;}
+.white{background-color:white;}
+
+#calc{
+    width: 260px;
+    height: 440px;
+}
+#screen{
+    margin: 0px;
+    background: gray;
+    width: 210px;
+    height: 40px;  
+    font-size: 35px;
+    line-height: 40px;
+    text-align: right;  
+    overflow: hidden;
+}
+
+.Text{
+    color:white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.big{
+    font-size: 30px;
+}
+
+#topcontainer{
+    padding : 25px;
+    height: 145px;
+}
+
+#bottomcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 265px;
+    justify-content: space-between
+}
+
+#leftcontainer{
+    width: 150px;
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#rightcontainer{
+    width: 60px;
+    height: 300px;
+    flex-direction: column;
+    
+
+}
+
+.button{
+    margin: 5px;
+    float: left;
+    width: 40px;
+    height: 30px
+}
+
+.bigbutton{
+    margin: 5px;
+    float: left;
+    width: 40px;
+    height: 70px
+}
